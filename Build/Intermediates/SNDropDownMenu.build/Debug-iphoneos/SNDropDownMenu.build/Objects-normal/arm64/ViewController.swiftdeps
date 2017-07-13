@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C14SNDropDownMenu14ViewController", ""]
 provides-dynamic-lookup:
-- "didSelectOption"
 - "didReceiveMemoryWarning"
+- "didSelectOption"
 - "viewDidLoad"
 depends-top-level:
-- !private "StringLiteralType"
-- "Int"
-- "UITableViewCell"
-- "ViewController"
-- !private "SNDropDownMenu"
-- !private "BooleanLiteralType"
 - !private "UIView"
-- !private "..."
-- "UIViewController"
-- "SNDropDownMenuDelegate"
-- !private "print"
-- !private "UIColor"
 - !private "UILabel"
+- "ViewController"
 - !private "String"
+- !private "StringLiteralType"
 - !private "+"
+- !private "SNDropDownMenu"
+- !private "..."
+- !private "BooleanLiteralType"
+- "Int"
+- !private "UIColor"
+- !private "print"
+- "SNDropDownMenuDelegate"
+- "UIViewController"
 - "AssignmentPrecedence"
+- "UITableViewCell"
 depends-member:
 - !private ["Ps9AnyObject", "SNDropDownMenu"]
 - !private ["Ps9AnyObject", "String"]
@@ -479,7 +479,6 @@ depends-member:
 - !private ["Ps25RangeReplaceableIndexable", "init"]
 - !private ["Ps16RawRepresentable", "center"]
 - ["C14SNDropDownMenu14SNDropDownMenu", "deinit"]
-- !private ["C14SNDropDownMenu14SNDropDownMenu", "frame"]
 - !private ["C14SNDropDownMenu14SNDropDownMenu", "init"]
 - !private ["C14SNDropDownMenu14SNDropDownMenu", "setup"]
 - !private ["P14SNDropDownMenu22SNDropDownMenuDelegate", "SNDropDownMenu"]
@@ -680,6 +679,10 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "view"]
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo12UIScrollView", "init"]
+- !private ["CSo12UIScrollView", "setup"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "setup"]
 - !private ["PSo16UIStateRestoring", "SNDropDownMenu"]
 - !private ["PSo16UIStateRestoring", "String"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
@@ -693,12 +696,18 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITableView", "init"]
+- !private ["CSo11UITableView", "setup"]
 - !private ["CSo15UITableViewCell", "backgroundColor"]
 - ["CSo15UITableViewCell", "deinit"]
 - !private ["CSo15UITableViewCell", "frame"]
 - !private ["CSo15UITableViewCell", "init"]
 - !private ["CSo15UITableViewCell", "layer"]
 - !private ["CSo15UITableViewCell", "textLabel"]
+- !private ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo21UITableViewDataSource", "setup"]
+- !private ["PSo19UITableViewDelegate", "init"]
+- !private ["PSo19UITableViewDelegate", "setup"]
 - !private ["PSo18UITraitEnvironment", "SNDropDownMenu"]
 - !private ["PSo18UITraitEnvironment", "String"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
@@ -931,8 +940,13 @@ depends-nominal:
 - "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- !private "PSo20UIScrollViewDelegate"
 - "PSo16UIStateRestoring"
+- !private "CSo11UITableView"
 - "CSo15UITableViewCell"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
 - "PSo18UITraitEnvironment"
 - "CSo6UIView"
 - "OSC17UIViewContentMode"

@@ -42,7 +42,6 @@ class ViewController: UIViewController ,SNDropDownMenuDelegate {
         }
         
         let dropDownMenu  = SNDropDownMenu()
-        dropDownMenu.frame = self.view.frame
         dropDownMenu.setup(headView, options: options,delegate:self)
         view.addSubview(dropDownMenu)
     }

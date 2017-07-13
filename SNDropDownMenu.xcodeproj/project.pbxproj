@@ -99,7 +99,7 @@
 				TargetAttributes = {
 					28246B601F173C1700E25BA6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = KVU42XKSXZ;
+						DevelopmentTeam = 4UAE35VF63;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -265,8 +265,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KVU42XKSXZ;
+				DEVELOPMENT_TEAM = 4UAE35VF63;
 				INFOPLIST_FILE = SNDropDownMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Snow.SNDropDownMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,8 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KVU42XKSXZ;
+				DEVELOPMENT_TEAM = 4UAE35VF63;
 				INFOPLIST_FILE = SNDropDownMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Snow.SNDropDownMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +308,7 @@
 				28246B751F173C1700E25BA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

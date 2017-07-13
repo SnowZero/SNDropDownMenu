@@ -116,8 +116,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import CoreGraphics;
 @import Foundation;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -137,39 +137,29 @@ SWIFT_CLASS("_TtC14SNDropDownMenu11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class SNDropDownMenuController;
+@class UIView;
+@class UITableViewCell;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC14SNDropDownMenu14SNDropDownMenu")
-@interface SNDropDownMenu : UIView
-@property (nonatomic, strong) SNDropDownMenuController * _Nonnull dropDownMenuController;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UITableViewCell;
-@class UITableView;
-@class NSBundle;
-
-SWIFT_CLASS("_TtC14SNDropDownMenu24SNDropDownMenuController")
-@interface SNDropDownMenuController : UITableViewController
+@interface SNDropDownMenu : UITableView <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) UIView * _Nonnull headView;
 @property (nonatomic, copy) NSArray<UITableViewCell *> * _Nonnull options;
 @property (nonatomic) BOOL isSelectMod;
+@property (nonatomic) BOOL reload;
+- (void)layoutSubviews;
 - (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)didReceiveMemoryWarning;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)showOrHiden;
-- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSBundle;
 
 SWIFT_CLASS("_TtC14SNDropDownMenu14ViewController")
 @interface ViewController : UIViewController

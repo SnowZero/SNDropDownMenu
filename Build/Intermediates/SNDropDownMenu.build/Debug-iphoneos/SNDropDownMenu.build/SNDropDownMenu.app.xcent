@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>KVU42XKSXZ.Snow.SNDropDownMenu</string>
+	<string>4UAE35VF63.Snow.SNDropDownMenu</string>
 	<key>com.apple.developer.team-identifier</key>
-	<string>KVU42XKSXZ</string>
+	<string>4UAE35VF63</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>KVU42XKSXZ.Snow.SNDropDownMenu</string>
+		<string>4UAE35VF63.Snow.SNDropDownMenu</string>
 	</array>
 </dict>
 </plist>
