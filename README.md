@@ -1,6 +1,8 @@
 ### SNDropDownMenu
 Use customize view produce dropDownMenu 
 
+<img src="http://snowzero.myds.me/github/image/SNDropDownMenu.gif">
+
 ### How to use
 
 - Drag SNDropDownMenu.swift to your project
