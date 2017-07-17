@@ -1,7 +1,8 @@
+<img src="http://snowzero.myds.me/github/image/SNDropDownMenu.gif" width=320 height=640>
+
+
 ### SNDropDownMenu
 Use customize view produce dropDownMenu 
-
-<img src="http://snowzero.myds.me/github/image/SNDropDownMenu.gif">
 
 ### How to use
 
