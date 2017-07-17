@@ -6,8 +6,8 @@ Use customize view produce dropDownMenu
 
 ### How to use
 
-- Drag 'SNDropDownMenu.swift' to your project
-- Add 'SNDropDownMenuDelegate' to your ViewController
+- Drag `SNDropDownMenu.swift` to your project
+- Add `SNDropDownMenuDelegate` to your ViewController
 - Refer to the example
 ```
 // example
