@@ -146,7 +146,6 @@ SWIFT_CLASS("_TtC14SNDropDownMenu14SNDropDownMenu")
 @property (nonatomic, strong) UIView * _Nonnull headView;
 @property (nonatomic, copy) NSArray<UITableViewCell *> * _Nonnull options;
 @property (nonatomic) BOOL isSelectMod;
-@property (nonatomic) BOOL reload;
 - (void)layoutSubviews;
 - (void)viewDidLoad;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
