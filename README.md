@@ -1,11 +1,11 @@
-# SNDropDownMenu
+### SNDropDownMenu
 Use customize view produce dropDownMenu 
 
-# How to use
+### How to use
 
-1. Drag SNDropDownMenu.swift to your project
-2. Add SNDropDownMenuDelegate to your ViewController
-3. Refer to the example
+- 1. Drag SNDropDownMenu.swift to your project
+- 2. Add SNDropDownMenuDelegate to your ViewController
+- 3. Refer to the example
 ```
 // example
 let headView = (your customize headView)
