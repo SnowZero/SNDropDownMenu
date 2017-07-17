@@ -1,4 +1,4 @@
-<img src="http://snowzero.myds.me/github/image/SNDropDownMenu.gif" width=320 height=640>
+<img src="http://snowzero.myds.me/github/image/SNDropDownMenu.gif" width=180 height=320>
 
 
 ### SNDropDownMenu
